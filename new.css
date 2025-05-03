@@ -1,0 +1,254 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.navbar-section-div {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 13vh;
+  color: white;
+}
+.navbar-section-div ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  font-size: larger;
+}
+.navbar-section-div button {
+  height: 8.5vh;
+  width: 170px;
+  background-color: orangered;
+  border-color: transparent;
+  border-radius: 8px;
+  color: white;
+  font-size: larger;
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 900px) {
+  .dest-flex-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 834px) {
+  .navbar-section-div ul {
+    display: none;
+  }
+  .navbar-section-div button {
+    display: none;
+  }
+  .dest-flex-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+}
+@media (max-width: 480px) {
+}
+/* hero section css */
+.hero-section {
+  background: linear-gradient(
+      to top,
+      rgb(70, 18, 18, 0.274),
+      rgb(27, 27, 114, 0.178),
+      rgb(22, 2, 31)
+    ),
+    url("1745049913756.jpg");
+
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  padding: 40px;
+}
+.hero-section h1 {
+  width: 350px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.253);
+  padding-left: 15px;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: x-large;
+  font-weight: 5px;
+}
+.hero-section h2 {
+  font-size: 70px;
+  width: 70%;
+  margin-top: 20px;
+}
+.hero-section p {
+  font-size: large;
+  width: 75%;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 10px;
+}
+/* .hero-section div button:nth-child(1) {
+  background-color: darkorange;
+  border-style: solid;
+}  */
+.hero-section div button {
+  background-color: orangered;
+  width: 150px;
+  height: 40px;
+  color: white;
+  border-color: transparent;
+  font-size: large;
+  border-radius: 10px;
+  margin-right: 80px;
+}
+.hero-section .watch-video {
+  background-color: rgba(255, 255, 255, 0.123);
+}
+.hero-section div button:hover {
+  background-color: rgb(255, 115, 0);
+}
+/* hero section ends here */
+.dest-section h3 {
+  text-align: center;
+  margin-top: 100px;
+  text-transform: uppercase;
+  color: orangered;
+  background-color: rgb(228, 220, 204);
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 30px;
+  /* display: flex; */
+  justify-content: center;
+  border-radius: 20px;
+  font-weight: 6px;
+}
+.dest-section .dest-flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+.dest-flex-container div div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50px;
+  /* display: flex; */
+}
+.dest-flex-container div > div {
+  width: 300px;
+}
+.dest-section h4 {
+  text-align: center;
+  font-size: 60px;
+  color: black;
+}
+.dest-flex-container .dest-package-content {
+  border-style: double;
+  background-color: blueviolet;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  text-align: center;
+  align-content: center;
+  position: relative;
+  top: -70px;
+  left: 80px;
+  right: auto;
+  background-color: white;
+  border-color: white;
+}
+.dest-flex-container .dest-package-content h5 {
+  color: orangered;
+  background-color: rgb(228, 220, 204);
+  border-radius: 6px;
+  width: 100px;
+  justify-self: center;
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: "Times New Roman", Times, serif;
+}
+.about-us-section {
+  background-color: #fff7ec;
+}
+.about-us-section .about-us-flex-container {
+  display: flex;
+  padding: 40px;
+  justify-content: space-between;
+}
+.about-us-section .about-us-flex-container .about-us-2nd-child h2 {
+  color: orangered;
+  background-color: rgb(250, 252, 252);
+  border-radius: 15px;
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  align-content: center;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  font-size: larger;
+}
+.about-us-section .about-us-flex-container .about-us-2nd-child h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+.about-us-section .about-us-flex-container .about-us-2nd-child p {
+  margin-bottom: 15px;
+}
+.about-us-section .about-us-flex-container .about-us-2nd-child .list {
+  list-style-type: georgian;
+  text-align: left;
+}
+.about-us-section .about-us-flex-container .about-us-2nd-child .list-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.about-us-2nd-child div div img {
+  border-radius: 25px;
+  margin-right: 20px;
+}
+.button {
+  background-color: rgb(219, 72, 18);
+  border-color: transparent;
+  width: 100px;
+  height: 30px;
+  color: white;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+.rating {
+  text-align: center;
+  justify-content: baseline;
+  /* width: 180px; */
+  /* align-items: center; */
+  /* font-display: 30px; */
+}
+.footer-section {
+  background-color: black;
+  color: white;
+}
+.footer-flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+.word {
+  width: 10px;
+}
+.footer-section p {
+}
+.footer-link {
+  list-style: none;
+}
+.contact {
+  list-style: none;
+}
+.follow-us {
+  list-style: none;
+}
